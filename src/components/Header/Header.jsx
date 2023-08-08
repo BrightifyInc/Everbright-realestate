@@ -12,15 +12,6 @@ import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
 
-    $(window).on("load", function () {
-        setTimeout(function () {
-          $("#loading").fadeOut("slow");
-          $("#loading-img").delay(150).fadeOut("slow");
-          document.getElementById("containerz").style.display = "none";
-        document.getElementById("contentz").style.display = "block";
-        }, 1000);
-      });
-
     const [nav, setNav] = useState(false)
     
   return (
@@ -28,77 +19,15 @@ function Header() {
     <body>
         <div id="containerz">
 
-{/*             <div id="loading">
+            <div id="loading">
                 <span id="loading-img">Loading...</span>
-            </div> */}
+            </div>
 
         </div>
 
         <div id="contentz">
 
             {/* <!-- **********NAVBAR************ --> */}
-            {/* <nav className="bg-white">
-                <div class="shadow_nav_Slider">
-                    <div class="nav_nav_Slider fadeInRightBig wow">
-                        <div class="slide_nav">
-                            <div class="Slides">
-                                <a href="">All</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Bungalow</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Ranch-style</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Villa</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Georgian</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Top Rated Residencies</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">All</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Georgian</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Ranch-style</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Villa</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Bungalow</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Georgian</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Georgian</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Ranch-style</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Villa</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Bungalow</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">All</a>
-                            </div>
-                            <div class="Slides">
-                                <a href="">Latest released</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav> */}
 
             <div className="max-w-[1640px] mx-auto flex justify-between items-center p-4 bg-white">
                 {/* LEFT SIDE */}
