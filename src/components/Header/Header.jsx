@@ -12,6 +12,15 @@ import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
 
+    $(window).on("load", function () {
+        setTimeout(function () {
+          $("#loading").fadeOut("slow");
+          $("#loading-img").delay(150).fadeOut("slow");
+          document.getElementById("containerz").style.display = "none";
+        document.getElementById("contentz").style.display = "block";
+        }, 1000);
+      });
+
     const [nav, setNav] = useState(false)
     
   return (
