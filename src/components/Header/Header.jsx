@@ -19,9 +19,9 @@ function Header() {
     <body>
         <div id="containerz">
 
-            <div id="loading">
+{/*             <div id="loading">
                 <span id="loading-img">Loading...</span>
-            </div>
+            </div> */}
 
         </div>
 
