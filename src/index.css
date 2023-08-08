@@ -21,17 +21,17 @@
   font-family: "Poppins", sans-serif, "Benne";
   scroll-behavior: smooth;
 }
-
+/* 
 #containerz
 {
     width: 100%;
-/*     height: 100vh; */
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #f5f8fc;
     background-size: cover;
-}
+} */
 
 
 #loading
