@@ -1,0 +1,49 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Rock+Salt&display=swap');
+/* Custom properties */
+:root{
+    --light-color: #fff;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Reusable classes */
+.container {
+    max-width: 134rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+
+/* Floating background image */
+.floating_bg_img {
+    width: 100%;
+    height: 45rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.floating_bg_img img {
+    height: 100%;
+    object-fit: cover;
+    width: 100% !important;
+}
+
+/* Welcome message */
+.hero-card {
+    /* background-color: #e8dfec; */
+    background-color: #f2f2fc;
+    /* background-color: #d7d7e0; */
+    padding: 2.5rem;
+    border-radius: 0.4rem;
+    margin-top: 2.5rem;
+    opacity: 0.9;
+    box-shadow: .5rem .5rem 1rem rgba(86, 63, 105, .05);
+    z-index: 0;
+    /* box-shadow: 0 0 3rem 0 rgba(86,63,105,.1); */
+}
