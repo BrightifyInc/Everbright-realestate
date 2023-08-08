@@ -16,7 +16,16 @@
   <body>
     <div id="root"></div>
     
-    
+    <script>
+      $(window).on("load", function () {
+        setTimeout(function () {
+          $("#loading").fadeOut("slow");
+          $("#loading-img").delay(150).fadeOut("slow");
+          document.getElementById("containerz").style.display = "none";
+        document.getElementById("contentz").style.display = "block";
+        }, 1000);
+      });
+    </script>
     <script type="module" src="/src/main.jsx"></script>
     <script src="/src/owl.carousel.min.js"></script>
 
